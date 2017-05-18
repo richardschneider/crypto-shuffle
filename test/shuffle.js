@@ -11,18 +11,29 @@ describe('Shuffle', function() {
     
     it('is exported', function() {
         expect(shuffle).to.be.a('function');        
-    })
+    });
 
     it('mutates the array', function() {
         var cards = deck.slice(0);
         shuffle(cards);
         expect(cards).to.not.eql(deck);
-    })
+    });
 
     it('is fluent', function() {
         var cards = deck.slice(0);
         var deal = shuffle(cards);
         expect(deal).to.have.lengthOf(cards.length);
         expect(deal).to.eql(cards);
-    })
-})
+    });
+    
+    it('randomly swaps', function() {
+        var cards = deck.slice(0);
+        shuffle(cards);
+        
+        expect(cards).to.have.lengthOf(deck.length);
+        for (var i = 0; i < deck.length; ++i) {
+            expect(cards).to.include(deck[i]);
+        }
+    });
+    
+});
