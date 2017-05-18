@@ -1,5 +1,6 @@
 {
   "name": "crypto-shuffle",
+  "version": "0.0.1",
   "description": "Cryptographically secure shuffle using the Fisher-Yates algorithm.  The browser's (or NodeJS) crypto services are used to generate strong random numbers.",
   "homepage": "https://github.com/richardschneider/crypto-shuffle",
   "bugs": "https://github.com/richardschneider/crypto-shuffle/issues",
@@ -18,7 +19,7 @@
     "random",
     "fisher-yates", 
     "shuffle",
-    "secure"
+    "secure",
     "card",
     "game"
   ],

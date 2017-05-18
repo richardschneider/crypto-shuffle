@@ -1,7 +1,7 @@
 # crypto-shuffle
 [![Travis build status](https://travis-ci.org/richardschneider/crypto-shuffle.svg)](https://travis-ci.org/richardschneider/crypto-shuffle)
 [![Coverage Status](https://coveralls.io/repos/github/richardschneider/crypto-shuffle/badge.svg?branch=master)](https://coveralls.io/github/richardschneider/crypto-shuffle?branch=master)
-[![npm version](https://badge.fury.io/js/crypto-shuffle.js.svg)](https://www.npmjs.com/package/crypto-shuffle.js) 
+[![npm version](https://badge.fury.io/js/crypto-shuffle.svg)](https://www.npmjs.com/package/crypto-shuffle) 
 
 
 A cryptographically secure shuffle using the modern [Fisher-Yates algorithm](https://en.wikipedia.org/wiki/Fisher%E2%80%93Yates_shuffle).  The browser's (or Node.js) crypto services are used to generate strong random numbers;  see [get-random-values](https://github.com/KenanY/get-random-values) for more details. 
