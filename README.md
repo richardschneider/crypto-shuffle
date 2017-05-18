@@ -1,4 +1,6 @@
 # crypto-shuffle
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/richardschneider/crypto-shuffle.svg)](https://greenkeeper.io/)
 [![Travis build status](https://travis-ci.org/richardschneider/crypto-shuffle.svg)](https://travis-ci.org/richardschneider/crypto-shuffle)
 [![Coverage Status](https://coveralls.io/repos/github/richardschneider/crypto-shuffle/badge.svg?branch=master)](https://coveralls.io/github/richardschneider/crypto-shuffle?branch=master)
 [![npm version](https://badge.fury.io/js/crypto-shuffle.svg)](https://www.npmjs.com/package/crypto-shuffle) 
