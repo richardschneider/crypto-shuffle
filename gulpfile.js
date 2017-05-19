@@ -81,5 +81,5 @@ gulp.task('coverage', function () {
 
 gulp.task('test',    ['lint', 'istanbul']);
 gulp.task('dist',    ['dist-lib', 'dist-test']);
-gulp.task('ci',      ['test', 'test-browser', 'dist']);
+gulp.task('ci',      ['test', 'dist']);
 gulp.task('default', ['test']);
