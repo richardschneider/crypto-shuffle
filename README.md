@@ -8,7 +8,7 @@ A cryptographically secure shuffle using the modern [Fisher-Yates algorithm](htt
 
 ## Getting started
 
-**crypto-shuffle** is available for both Node.js and the browser.  Most modern browsers are supported.  If you want to know if your browser is compatible, run the [online test suite](https://unpkg.com/crypto-shuffle/test/index.html).
+**crypto-shuffle** is available for both Node.js and the browser.  Most modern browsers are supported.  If you want to know if your browser is compatible, run the [online test suite](https://rawgit.com/richardschneider/crypto-shuffle/master/test/index.html).
 
 Install with [npm](http://blog.npmjs.org/post/85484771375/how-to-install-npm)
 
